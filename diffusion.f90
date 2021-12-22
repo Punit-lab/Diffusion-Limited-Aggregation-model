@@ -1,5 +1,4 @@
-	!program name:: formation of  fractal on two dimentional square lattics
-	!student name :: Punit nagpure
+	!This is Programe to illustrate the Diffusion limited modeling through monte carlo method 
 	!the launching radius,maximum radius and killing radius kept fixed
 	program fractal
 	implicit none
