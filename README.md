@@ -21,4 +21,4 @@
 - Particles can drift arbitrarily far away from the cluster. In that case we must replace step 3 with the following procedure: We calculate the current distance r of the particle from the origin and if **r≥ Rstop** we remove the particle from the lattice and we go to step 2. We repeat step 3 until a nearest neighbour of a cluster site is reached and then we move to step 4.
 - The boundary sphere with radius Rstop , Rstart, is necessary in order to avoid particle’s roaming far from the aggregate since this will increase computational time. The radius Rstart and Rstop are not fixed and are continuously optimized. We have set **Rstart = Rmax + 5** and **Rstop = 1.5 × Rstart**
 
-
+#### ** To get complete overview of programe go to diffusion.f90 file .** 
